@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.demox.bank.android-mergeDebugResources-54:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\df8aba2d307a51dcd68ca51299868cce\\transformed\\appcompat-1.5.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

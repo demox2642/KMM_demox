@@ -1,0 +1,2 @@
+com.demox.bank.core
+string androidx_startup

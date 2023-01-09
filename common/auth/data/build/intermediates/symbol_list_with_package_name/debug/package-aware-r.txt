@@ -1,0 +1,2 @@
+com.demox.bank.auth.data
+string androidx_startup

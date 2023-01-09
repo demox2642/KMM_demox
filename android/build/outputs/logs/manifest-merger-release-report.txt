@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4598c8561efdfe8834d1ebb48692deba\transformed\activity-compose-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c6397758e0781e762113ffa012b28fee\transformed\ui-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6504b098d850ee9f45a0e6e8a9b53653\transformed\ui-text-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6b13d5280c0659d781a8caa7532f2726\transformed\runtime-saveable-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\fac0a78fb75efacff9734f1d926b817c\transformed\ui-graphics-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5322122b010f6eeb039293d546c7b3fa\transformed\ui-unit-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a5ed49c8274b99c34a09db06fc08869a\transformed\ui-geometry-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6e9cf7b81a66cc07ab3f99c3f2cc4d5d\transformed\runtime-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\f7f0ac1b71ce595eb1876ca6ca64d52b\transformed\activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a89e6b81cbd5ab5683c00eccbd702b1a\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\27ac1f972fb043b8b1bfcbe7b2e6fe8d\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\784ad24c82fe1ed84f379e8c4b896e2e\transformed\activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\18b14882650cc58de895bccb77359904\transformed\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6db28e2ac33195dedcd6ff881829b378\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\2d7640ebb2500ab0852e6fcd0686f009\transformed\ui-util-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\b9cc8dd2a2921ae52f530b1c41c22ddf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6ea46fa0458a27033cdad75d22a8fd77\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c3b6e85d109ff2ea972948c078437839\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c31064f498ef7fd53fce443328ac70ca\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\1fd3e85407140cc2571cecdf7b64cc3f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\096e327ce584a5740593140bfea70f04\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a8d9b8ff61a580118211d466fc0fe786\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\adcff151eb8c7f42b97fdf5bdec757a8\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d1090cb6f61fc3c45bc9fd9a19a24674\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c46200361a1726863ce91ce3d05fc0d4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:1-14:12
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:3:5-13:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a8d9b8ff61a580118211d466fc0fe786\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a8d9b8ff61a580118211d466fc0fe786\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:5:13-39
+	android:allowBackup
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:4:13-40
+	android:theme
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:6:13-69
+activity#org.example.android.MainActivity
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:7:13-12:20
+	android:exported
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:7:52-75
+	android:name
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:7:23-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:8:13-11:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:9:17-68
+	android:name
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:10:17-76
+	android:name
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:10:27-74
+uses-sdk
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4598c8561efdfe8834d1ebb48692deba\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4598c8561efdfe8834d1ebb48692deba\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c6397758e0781e762113ffa012b28fee\transformed\ui-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c6397758e0781e762113ffa012b28fee\transformed\ui-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6504b098d850ee9f45a0e6e8a9b53653\transformed\ui-text-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6504b098d850ee9f45a0e6e8a9b53653\transformed\ui-text-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6b13d5280c0659d781a8caa7532f2726\transformed\runtime-saveable-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6b13d5280c0659d781a8caa7532f2726\transformed\runtime-saveable-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\fac0a78fb75efacff9734f1d926b817c\transformed\ui-graphics-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\fac0a78fb75efacff9734f1d926b817c\transformed\ui-graphics-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5322122b010f6eeb039293d546c7b3fa\transformed\ui-unit-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5322122b010f6eeb039293d546c7b3fa\transformed\ui-unit-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a5ed49c8274b99c34a09db06fc08869a\transformed\ui-geometry-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a5ed49c8274b99c34a09db06fc08869a\transformed\ui-geometry-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6e9cf7b81a66cc07ab3f99c3f2cc4d5d\transformed\runtime-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6e9cf7b81a66cc07ab3f99c3f2cc4d5d\transformed\runtime-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\f7f0ac1b71ce595eb1876ca6ca64d52b\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\f7f0ac1b71ce595eb1876ca6ca64d52b\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a89e6b81cbd5ab5683c00eccbd702b1a\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a89e6b81cbd5ab5683c00eccbd702b1a\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\27ac1f972fb043b8b1bfcbe7b2e6fe8d\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\27ac1f972fb043b8b1bfcbe7b2e6fe8d\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\784ad24c82fe1ed84f379e8c4b896e2e\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\784ad24c82fe1ed84f379e8c4b896e2e\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\18b14882650cc58de895bccb77359904\transformed\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\18b14882650cc58de895bccb77359904\transformed\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6db28e2ac33195dedcd6ff881829b378\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6db28e2ac33195dedcd6ff881829b378\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\2d7640ebb2500ab0852e6fcd0686f009\transformed\ui-util-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\2d7640ebb2500ab0852e6fcd0686f009\transformed\ui-util-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\b9cc8dd2a2921ae52f530b1c41c22ddf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\b9cc8dd2a2921ae52f530b1c41c22ddf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6ea46fa0458a27033cdad75d22a8fd77\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\6ea46fa0458a27033cdad75d22a8fd77\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c3b6e85d109ff2ea972948c078437839\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c3b6e85d109ff2ea972948c078437839\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4ffb64098e54750438bb8761224900e4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c31064f498ef7fd53fce443328ac70ca\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c31064f498ef7fd53fce443328ac70ca\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\1fd3e85407140cc2571cecdf7b64cc3f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\1fd3e85407140cc2571cecdf7b64cc3f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\096e327ce584a5740593140bfea70f04\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\096e327ce584a5740593140bfea70f04\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a8d9b8ff61a580118211d466fc0fe786\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\a8d9b8ff61a580118211d466fc0fe786\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\adcff151eb8c7f42b97fdf5bdec757a8\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\adcff151eb8c7f42b97fdf5bdec757a8\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d1090cb6f61fc3c45bc9fd9a19a24674\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d1090cb6f61fc3c45bc9fd9a19a24674\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c46200361a1726863ce91ce3d05fc0d4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\c46200361a1726863ce91ce3d05fc0d4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\5c1a69ab0910e0836eba1ddb2e92951d\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:27:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\d57955b4b2f7796b2817144c6cd8f5e9\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:25-88
