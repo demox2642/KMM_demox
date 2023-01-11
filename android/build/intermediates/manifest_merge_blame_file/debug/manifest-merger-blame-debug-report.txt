@@ -6,107 +6,107 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+8-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml
+9-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:3:5-15:19
+11-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:3:5-15:19
 12        android:name="org.example.android.DemoxBankApp"
-12-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:4:13-60
+12-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:4:13-60
 13        android:allowBackup="false"
-13-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:5:13-40
+13-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:5:13-40
 14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-14-->[androidx.core:core:1.8.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\10fa92e97e3c54064fc17682d044ccb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14-->[androidx.core:core:1.8.0] C:\Users\demox\.gradle\caches\transforms-3\10fa92e97e3c54064fc17682d044ccb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:supportsRtl="true"
-17-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:6:13-39
+17-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:6:13-39
 18        android:testOnly="true"
 19        android:theme="@style/Theme.AppCompat.NoActionBar" >
-19-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:7:13-63
+19-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:7:13-63
 20        <activity
-20-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:8:13-14:20
+20-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:8:13-14:20
 21            android:name="org.example.android.MainActivity"
-21-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:8:23-70
+21-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:8:23-70
 22            android:exported="true" >
-22-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:9:23-46
+22-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:9:23-46
 23            <intent-filter>
-23-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:10:13-13:29
+23-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:10:13-13:29
 24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:11:17-68
-24-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:11:25-66
+24-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:11:17-68
+24-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:11:25-66
 25
 26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:12:17-76
-26-->C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\android\src\main\AndroidManifest.xml:12:27-74
+26-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:12:17-76
+26-->C:\Users\demox\IdeaProjects\KMM\KMM_demox\android\src\main\AndroidManifest.xml:12:27-74
 27            </intent-filter>
 28        </activity>
 29
 30        <provider
-30-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:26:9-34:20
+30-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:26:9-34:20
 31            android:name="androidx.startup.InitializationProvider"
-31-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:27:13-67
+31-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:27:13-67
 32            android:authorities="com.demox.bank.android.androidx-startup"
-32-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:28:13-68
+32-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:28:13-68
 33            android:exported="false" >
-33-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-37
+33-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-37
 34            <meta-data
-34-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:13-33:52
+34-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:13-33:52
 35                android:name="com.russhwolf.settings.SettingsInitializer"
-35-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:32:17-74
+35-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:32:17-74
 36                android:value="androidx.startup" />
-36-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:33:17-49
+36-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.0.0-RC] C:\Users\demox\.gradle\caches\transforms-3\3891dc76a2d16f6980f4e9d2bad90dc8\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:33:17-49
 37            <meta-data
-37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\0a0155bcc89c1503076ebc79dc52186d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\demox\.gradle\caches\transforms-3\cf335a91da7f23b726c38c61a440143c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 43            <meta-data
-43-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+43-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
 44                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
 45                android:value="androidx.startup" />
-45-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+45-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
 46        </provider>
 47
 48        <activity
-48-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+48-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
 49            android:name="androidx.compose.ui.tooling.PreviewActivity"
-49-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+49-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
 50            android:exported="true" />
-50-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+50-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\4d123d0a233c90699f10a6739ee39160\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
 51
 52        <receiver
-52-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+52-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
 53            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-53-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+53-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
 54            android:directBootAware="false"
-54-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+54-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
 55            android:enabled="true"
-55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
 56            android:exported="true"
-56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
 57            android:permission="android.permission.DUMP" >
-57-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+57-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
 58            <intent-filter>
-58-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+58-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
 59                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
-59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
 60            </intent-filter>
 61            <intent-filter>
-61-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+61-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
 62                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-62-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
-62-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\gradle-7.0.2-bin\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+62-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+62-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\demox\.gradle\caches\transforms-3\e1ed2de18b66587d6461c96b6d8fd2d2\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
 63            </intent-filter>
 64        </receiver>
 65    </application>

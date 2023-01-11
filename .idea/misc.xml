@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/demox/IdeaProjects/KMM/KMM_demox/common/core-compose/src/main/res/drawable/arrow_drop_up.xml" value="0.1" />
+        <entry key="..\:/Users/demox/IdeaProjects/KMM/KMM_demox/common/core-compose/src/main/res/drawable/base_ic_delete.xml" value="0.1" />
+        <entry key="..\:/Users/demox/IdeaProjects/KMM/KMM_demox/common/core-compose/src/main/res/drawable/base_ic_ellipse_error.xml" value="0.1" />
+        <entry key="..\:/Users/demox/IdeaProjects/KMM/KMM_demox/common/core-compose/src/main/res/drawable/ic_visible.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

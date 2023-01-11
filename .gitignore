@@ -21,3 +21,32 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+*/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/common/umbrella-compose/build/
+/common/umbrella-core/build/
+/common/umbrella-ios/build/
+/common/tournaments/data/build/
+/common/main/presentation/build/
+/common/main/compose/build/
+/common/main/api/build/
+/common/games/data/build/
+/common/games/api/build/
+/common/core-utils/build/
+/common/core-compose/build/
+/common/core/build/
+/common/auth/presentation/build/
+/common/auth/data/build/
+/common/auth/compose/build/
+/common/auth/api/build/
+/buildSrc/buildSrc/build/

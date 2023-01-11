@@ -2,6 +2,9 @@ plugins {
     id("multiplatform-compose-setup")
     id("android-setup")
 }
+dependencies {
+    implementation(project(mapOf("path" to ":common:core-compose")))
+}
 
 kotlin {
     sourceSets {

@@ -1,16 +1,14 @@
 package login
 
-import androidx.compose.foundation.clickable
+import ImageResources
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Icon
 import androidx.compose.material.Text
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.Clear
-import androidx.compose.material.icons.outlined.Lock
-import androidx.compose.runtime.Composable
+import androidx.compose.material.TextField
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -43,8 +41,10 @@ fun LoginScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Login Now", color = AppTheme.colors.systemTextPrimary,
-                fontSize = 24.sp, fontWeight = FontWeight.Bold
+                text = "Login Now",
+                color = AppTheme.colors.systemTextPrimary,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold
             )
 
             Text(
@@ -60,7 +60,8 @@ fun LoginScreen() {
             CommonTextField(
                 value = state.value.phone,
                 placeholder = "Your Phone",
-                isSending = state.value.isSending
+                isSending = state.value.isSending,
+                trailingIcon = {}
             ) {
                 viewModel.obtainEvent(LoginEvent.PhoneChanged(it))
             }
@@ -73,17 +74,12 @@ fun LoginScreen() {
                 isSending = state.value.isSending,
                 isTextHidden = state.value.passwordHidden,
                 trailingIcon = {
+//                    Icon(painter = icAppRounded(), contentDescription = null, tint = AppTheme.colors.controlGraphBlue)
+//                }
                     Icon(
-                        modifier = Modifier.clickable {
-                            viewModel.obtainEvent(LoginEvent.PasswordShowClick)
-                        },
-                        imageVector = if (state.value.passwordHidden) {
-                            Icons.Outlined.Clear
-                        } else {
-                            Icons.Outlined.Lock
-                        },
-                        contentDescription = "Password hidden",
-                        tint = AppTheme.colors.colorTextWarning
+                        painter = ImageResources.icVisible(),
+                        contentDescription = null,
+                        tint = AppTheme.colors.controlGraphBlue
                     )
                 }
             ) {
@@ -95,6 +91,21 @@ fun LoginScreen() {
             ActionButton(title = "Login Now", isSending = state.value.isSending) {
                 viewModel.obtainEvent(LoginEvent.LoginClick)
             }
+            Spacer(modifier = Modifier.height(84.dp))
+
+            var text by remember { mutableStateOf("") }
+
+            TextField(
+                value = text,
+                onValueChange = { text = it },
+                trailingIcon = {
+                    Icon(
+                        painter = ImageResources.icVisible(),
+                        contentDescription = null,
+                        tint = AppTheme.colors.controlGraphBlue
+                    )
+                }
+            )
         }
 
         when (action.value) {
@@ -109,3 +120,5 @@ fun LoginScreen() {
         }
     }
 }
+
+

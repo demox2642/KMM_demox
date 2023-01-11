@@ -4,7 +4,7 @@
             "outputFile": "com.demox.bank.android-mergeDebugResources-54:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\1ffd0b3ece9e936469f93f53187ac358\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\demox\\.gradle\\caches\\transforms-3\\1ffd0b3ece9e936469f93f53187ac358\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

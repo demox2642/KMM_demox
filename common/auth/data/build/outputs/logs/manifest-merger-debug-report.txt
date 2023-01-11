@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
+ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
 	package
-		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml:2:11-45
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml:2:11-45
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml:2:1-47
 uses-sdk
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
-		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox_bank\demox_bank\common\auth\data\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\demox\IdeaProjects\KMM\KMM_demox\common\auth\data\src\androidMain\AndroidManifest.xml
