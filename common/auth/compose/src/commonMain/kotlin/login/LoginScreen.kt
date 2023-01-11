@@ -41,7 +41,7 @@ fun LoginScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Login Now",
+                text = StringResources.stLogin(),
                 color = AppTheme.colors.systemTextPrimary,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
@@ -49,7 +49,7 @@ fun LoginScreen() {
 
             Text(
                 modifier = Modifier.padding(top = 15.dp),
-                text = "Welcome back to Demox BanK! Enter your phone and password.",
+                text = StringResources.stLoginScreenTitle(),
                 fontSize = 14.sp,
                 textAlign = TextAlign.Center,
                 color = AppTheme.colors.systemTextPrimary
@@ -59,7 +59,7 @@ fun LoginScreen() {
 
             CommonTextField(
                 value = state.value.phone,
-                placeholder = "Your Phone",
+                placeholder = StringResources.stPhoneHint(),
                 isSending = state.value.isSending,
                 trailingIcon = {}
             ) {
@@ -70,7 +70,7 @@ fun LoginScreen() {
 
             CommonTextField(
                 value = state.value.password,
-                placeholder = "Your Password",
+                placeholder = StringResources.stPasswordHint(),
                 isSending = state.value.isSending,
                 isTextHidden = state.value.passwordHidden,
                 trailingIcon = {
@@ -95,7 +95,7 @@ fun LoginScreen() {
 
             Spacer(modifier = Modifier.height(84.dp))
 
-            ActionButton(title = "Login Now", isSending = state.value.isSending) {
+            ActionButton(title = StringResources.stLogin(), isSending = state.value.isSending) {
                 viewModel.obtainEvent(LoginEvent.LoginClick)
             }
 
@@ -113,5 +113,3 @@ fun LoginScreen() {
         }
     }
 }
-
-

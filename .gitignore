@@ -39,12 +39,12 @@ local.properties
 /common/umbrella-compose/build/
 /common/umbrella-core/build/
 /common/umbrella-ios/build/
-/common/tournaments/data/build/
+/common/chat/data/build/
 /common/main/presentation/build/
 /common/main/compose/build/
 /common/main/api/build/
-/common/games/data/build/
-/common/games/api/build/
+/common/invest/data/build/
+/common/invest/api/build/
 /common/core-utils/build/
 /common/core-compose/build/
 /common/core/build/

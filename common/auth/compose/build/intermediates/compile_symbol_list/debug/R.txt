@@ -908,10 +908,14 @@ int string default_popup_window_title 0x0
 int string dropdown_menu 0x0
 int string in_progress 0x0
 int string indeterminate 0x0
+int string login 0x0
+int string login_screen_title 0x0
 int string navigation_menu 0x0
 int string not_selected 0x0
 int string off 0x0
 int string on 0x0
+int string password_hint 0x0
+int string phone_hint 0x0
 int string range_end 0x0
 int string range_start 0x0
 int string search_menu_title 0x0

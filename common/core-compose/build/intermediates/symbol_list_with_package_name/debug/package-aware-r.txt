@@ -76,10 +76,14 @@ string default_popup_window_title
 string dropdown_menu
 string in_progress
 string indeterminate
+string login
+string login_screen_title
 string navigation_menu
 string not_selected
 string off
 string on
+string password_hint
+string phone_hint
 string range_end
 string range_start
 string selected

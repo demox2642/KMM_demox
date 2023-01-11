@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_hint">Your Password</string>
+    <string name="phone_hint">Your Phone</string>
+    <string name="login">Login Now</string>
+    <string name="login_screen_title">Welcome back to Demox BanK! Enter your phone and password.</string>
+</resources>

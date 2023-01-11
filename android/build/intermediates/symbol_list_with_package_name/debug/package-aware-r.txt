@@ -3129,6 +3129,8 @@ string in_progress
 string indeterminate
 string item_view_role_description
 string label
+string login
+string login_screen_title
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium
@@ -3204,11 +3206,13 @@ string navigation_menu
 string not_selected
 string off
 string on
+string password_hint
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string phone_hint
 string range_end
 string range_start
 string search_menu_title
