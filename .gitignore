@@ -32,6 +32,9 @@ hs_err_pid*
 /captures
 .externalNativeBuild
 .cxx
+*.tab
+*.at
+*.lock
 local.properties
 /common/umbrella-compose/build/
 /common/umbrella-core/build/

@@ -1,14 +1,14 @@
 package login
 
 import ImageResources
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Icon
 import androidx.compose.material.Text
-import androidx.compose.material.TextField
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -74,13 +74,20 @@ fun LoginScreen() {
                 isSending = state.value.isSending,
                 isTextHidden = state.value.passwordHidden,
                 trailingIcon = {
-//                    Icon(painter = icAppRounded(), contentDescription = null, tint = AppTheme.colors.controlGraphBlue)
-//                }
                     Icon(
-                        painter = ImageResources.icVisible(),
+                        modifier = Modifier.clickable {
+                            viewModel.obtainEvent(LoginEvent.PasswordShowClick)
+                        },
+                        painter =  if (state.value.passwordHidden) {
+                            ImageResources.icNoVisible()
+                        } else {
+                            ImageResources.icVisible()
+                        },
                         contentDescription = null,
                         tint = AppTheme.colors.controlGraphBlue
                     )
+
+
                 }
             ) {
                 viewModel.obtainEvent(LoginEvent.PasswordChanged(it))
@@ -91,21 +98,7 @@ fun LoginScreen() {
             ActionButton(title = "Login Now", isSending = state.value.isSending) {
                 viewModel.obtainEvent(LoginEvent.LoginClick)
             }
-            Spacer(modifier = Modifier.height(84.dp))
 
-            var text by remember { mutableStateOf("") }
-
-            TextField(
-                value = text,
-                onValueChange = { text = it },
-                trailingIcon = {
-                    Icon(
-                        painter = ImageResources.icVisible(),
-                        contentDescription = null,
-                        tint = AppTheme.colors.controlGraphBlue
-                    )
-                }
-            )
         }
 
         when (action.value) {

@@ -8,6 +8,6 @@ actual class ImageResources() {
         actual fun icVisible() = painterResource("drawable/ic_visible.xml")
 
         @Composable
-        actual fun icNoVisible() = painterResource("drawable/ic_novisible")
+        actual fun icNoVisible() = painterResource("drawable/ic_novisible.xml")
     }
 }

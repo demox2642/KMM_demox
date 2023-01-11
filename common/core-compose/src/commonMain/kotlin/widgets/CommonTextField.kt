@@ -9,19 +9,19 @@ import androidx.compose.material.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import theme.AppTheme
 
+@Suppress("UNUSED_EXPRESSION")
 @Composable
 fun CommonTextField(
     value: String,
     placeholder: String,
     isSending: Boolean = false,
     isTextHidden: Boolean = false,
-    trailingIcon: @Composable() (() -> kotlin.Unit),
+    trailingIcon: @Composable() (() -> Unit),
     onValueChanged: (String) -> Unit
 ) {
     TextField(
@@ -42,9 +42,7 @@ fun CommonTextField(
         } else {
             VisualTransformation.None
         },
-        trailingIcon = {
-            trailingIcon
-        },
+        trailingIcon = trailingIcon,
         placeholder = { Text(placeholder, color = AppTheme.colors.systemTextTertiary) },
         shape = RoundedCornerShape(10.dp),
         onValueChange = {
@@ -52,26 +50,3 @@ fun CommonTextField(
         }
     )
 }
-
-@Composable
-fun SSTextField(
-    value: String,
-    onValueChange: (String) -> Unit,
-    modifier: androidx.compose.ui.Modifier,
-    enabled: Boolean,
-    readOnly: Boolean,
-    textStyle: androidx.compose.ui.text.TextStyle,
-    label: @Composable() (() -> Unit)?,
-    placeholder: @Composable() (() -> Unit)?,
-    leadingIcon: @Composable() (() -> Unit)?,
-    trailingIcon: @Composable() (() -> Unit)?,
-    isError: Boolean,
-    visualTransformation: androidx.compose.ui.text.input.VisualTransformation,
-    keyboardOptions: androidx.compose.foundation.text.KeyboardOptions,
-    keyboardActions: androidx.compose.foundation.text.KeyboardActions,
-    singleLine: Boolean,
-    maxLines: Int,
-    interactionSource: androidx.compose.foundation.interaction.MutableInteractionSource,
-    shape: Shape,
-    colors: androidx.compose.material.TextFieldColors
-){ /* compiled code */ }
