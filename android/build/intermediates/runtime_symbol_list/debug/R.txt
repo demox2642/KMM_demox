@@ -3122,6 +3122,7 @@ int string error_icon_content_description 0x7f0d0029
 int string exposed_dropdown_menu_content_description 0x7f0d002a
 int string fab_transformation_scrim_behavior 0x7f0d002b
 int string fab_transformation_sheet_behavior 0x7f0d002c
+int string forgot_password 0x7f0d008e
 int string hide_bottom_view_on_scroll_behavior 0x7f0d002d
 int string icon_content_description 0x7f0d002e
 int string in_progress 0x7f0d002f
@@ -3214,6 +3215,7 @@ int string path_password_strike_through 0x7f0d0082
 int string phone_hint 0x7f0d008b
 int string range_end 0x7f0d0083
 int string range_start 0x7f0d0084
+int string registeration 0x7f0d008f
 int string search_menu_title 0x7f0d0085
 int string selected 0x7f0d0086
 int string status_bar_notification_info_overflow 0x7f0d0087

@@ -7,5 +7,8 @@ actual class StringResources {
         actual fun stLogin() = Strings.login
 
         actual fun stLoginScreenTitle() = Strings.login_screen_title
+        actual fun stForgotPassword() = Strings.forgot_password
+
+        actual fun stRegisteration() = Strings.registeration
     }
 }

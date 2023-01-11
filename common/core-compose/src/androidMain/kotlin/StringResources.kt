@@ -15,5 +15,11 @@ actual class StringResources {
 
         @Composable
         actual fun stLoginScreenTitle() = stringResource(id = R.string.login_screen_title)
+
+        @Composable
+        actual fun stForgotPassword() = stringResource(id = R.string.forgot_password)
+
+        @Composable
+        actual fun stRegisteration() = stringResource(id = R.string.registeration)
     }
 }

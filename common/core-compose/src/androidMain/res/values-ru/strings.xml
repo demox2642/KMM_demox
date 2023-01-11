@@ -4,4 +4,6 @@
     <string name="phone_hint">Ваш телефон</string>
     <string name="login">Войти</string>
     <string name="login_screen_title">С возвращением в Demox Bank! Введите свой телефон и пароль.</string>
+    <string name="forgot_password">Забыли ПАРОЛЬ</string>
+    <string name="registeration">Зарегистрироваться</string>
 </resources>

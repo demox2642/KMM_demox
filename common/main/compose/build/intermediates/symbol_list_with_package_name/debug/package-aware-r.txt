@@ -906,6 +906,7 @@ string close_sheet
 string default_error_message
 string default_popup_window_title
 string dropdown_menu
+string forgot_password
 string in_progress
 string indeterminate
 string login
@@ -918,6 +919,7 @@ string password_hint
 string phone_hint
 string range_end
 string range_start
+string registeration
 string search_menu_title
 string selected
 string status_bar_notification_info_overflow

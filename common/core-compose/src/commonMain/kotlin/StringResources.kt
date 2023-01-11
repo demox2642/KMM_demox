@@ -6,5 +6,8 @@ expect class StringResources {
         fun stPhoneHint(): String
         fun stLogin(): String
         fun stLoginScreenTitle(): String
+        fun stForgotPassword(): String
+
+        fun stRegisteration(): String
     }
 }

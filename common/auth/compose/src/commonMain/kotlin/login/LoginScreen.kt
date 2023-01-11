@@ -2,12 +2,10 @@ package login
 
 import ImageResources
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
 import androidx.compose.material.Text
+import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -93,7 +91,17 @@ fun LoginScreen() {
                 viewModel.obtainEvent(LoginEvent.PasswordChanged(it))
             }
 
-            Spacer(modifier = Modifier.height(84.dp))
+            Spacer(modifier = Modifier.height(20.dp))
+            Row (modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween){
+                TextButton(onClick = {}){
+                    Text(StringResources.stForgotPassword())
+                }
+                TextButton(onClick = {}){
+                    Text(StringResources.stRegisteration())
+                }
+            }
+
+            Spacer(modifier = Modifier.height(40.dp))
 
             ActionButton(title = StringResources.stLogin(), isSending = state.value.isSending) {
                 viewModel.obtainEvent(LoginEvent.LoginClick)

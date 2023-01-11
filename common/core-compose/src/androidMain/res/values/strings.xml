@@ -4,4 +4,6 @@
     <string name="phone_hint">Your Phone</string>
     <string name="login">Login Now</string>
     <string name="login_screen_title">Welcome back to Demox BanK! Enter your phone and password.</string>
+    <string name="forgot_password">Forgot PASSWORD</string>
+    <string name="registeration">Register</string>
 </resources>

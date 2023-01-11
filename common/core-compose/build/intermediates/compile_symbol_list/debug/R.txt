@@ -73,6 +73,7 @@ int string close_sheet 0x0
 int string default_error_message 0x0
 int string default_popup_window_title 0x0
 int string dropdown_menu 0x0
+int string forgot_password 0x0
 int string in_progress 0x0
 int string indeterminate 0x0
 int string login 0x0
@@ -85,6 +86,7 @@ int string password_hint 0x0
 int string phone_hint 0x0
 int string range_end 0x0
 int string range_start 0x0
+int string registeration 0x0
 int string selected 0x0
 int string tab 0x0
 int string template_percent 0x0
