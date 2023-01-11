@@ -53,3 +53,5 @@ local.properties
 /common/auth/compose/build/
 /common/auth/api/build/
 /buildSrc/buildSrc/build/
+/buildSrc/build/
+/buildSrc/.gradle/
