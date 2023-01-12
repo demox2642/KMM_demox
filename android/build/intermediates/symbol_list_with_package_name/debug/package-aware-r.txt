@@ -2366,6 +2366,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_left
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_m3_chip_check
@@ -2407,7 +2408,6 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-drawable no
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low

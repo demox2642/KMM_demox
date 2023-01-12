@@ -4,7 +4,7 @@
             "outputFile": "com.demox.bank.android-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\demox\\.gradle\\caches\\transforms-3\\df8aba2d307a51dcd68ca51299868cce\\transformed\\appcompat-1.5.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\df8aba2d307a51dcd68ca51299868cce\\transformed\\appcompat-1.5.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

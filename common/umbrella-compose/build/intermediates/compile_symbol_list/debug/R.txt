@@ -618,10 +618,10 @@ int drawable btn_radio_off_mtrl 0x0
 int drawable btn_radio_off_to_on_mtrl_animation 0x0
 int drawable btn_radio_on_mtrl 0x0
 int drawable btn_radio_on_to_off_mtrl_animation 0x0
+int drawable ic_arrow_left 0x0
 int drawable ic_novisible 0x0
 int drawable ic_user_avatar 0x0
 int drawable ic_visible 0x0
-int drawable no 0x0
 int drawable notification_action_background 0x0
 int drawable notification_bg 0x0
 int drawable notification_bg_low 0x0

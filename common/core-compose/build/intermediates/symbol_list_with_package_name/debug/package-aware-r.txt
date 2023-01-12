@@ -1,6 +1,7 @@
 com.demox.bank.core_compose
 color vector_tint_color
 color vector_tint_theme_color
+drawable ic_arrow_left
 drawable ic_novisible
 drawable ic_visible
 font euclid_circular_bold

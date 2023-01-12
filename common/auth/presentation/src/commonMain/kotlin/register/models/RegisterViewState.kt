@@ -7,6 +7,7 @@ data class RegisterViewState(
     val isCreateUser: Boolean = false,
     val passwordHidden: Boolean = true,
     val repeatPasswordHidden: Boolean = true,
+    val isSending: Boolean = false,
     val showError: Boolean = false,
     val errorTitle: String = "",
     val errorMessage: String = ""

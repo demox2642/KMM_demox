@@ -1,5 +1,6 @@
 int color vector_tint_color 0x0
 int color vector_tint_theme_color 0x0
+int drawable ic_arrow_left 0x0
 int drawable ic_novisible 0x0
 int drawable ic_visible 0x0
 int font euclid_circular_bold 0x0
