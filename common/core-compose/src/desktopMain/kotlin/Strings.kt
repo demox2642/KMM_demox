@@ -5,6 +5,8 @@ object Strings {
     val login_screen_title: String
     val forgot_password: String
     val registeration: String
+    val back: String
+    val platform_name: String
 
     init {
         if (System.getProperty("user.language").equals("ru")) {
@@ -14,13 +16,17 @@ object Strings {
             login_screen_title = "С возвращением в Demox BanK! Введите свой телефон и пароль."
             forgot_password = "Забыли ПАРОЛЬ"
             registeration = "Зарегистрироваться"
+            back = "Назад"
+            platform_name = "Desktop"
         } else {
             password_hint = "Your Password"
             phone_hint = "Your Phone"
             login = "Login Now"
             login_screen_title = "Welcome back to Demox BanK! Enter your phone and password."
-            forgot_password = "Забыли ПАРОЛЬ"
-            registeration = "Зарегистрироваться"
+            forgot_password = "Forgot PASSWORD"
+            registeration = "Register"
+            back = "Back"
+            platform_name = "Desktop"
         }
     }
 }

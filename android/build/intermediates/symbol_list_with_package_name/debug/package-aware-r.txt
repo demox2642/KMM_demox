@@ -1180,6 +1180,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3107,6 +3108,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3214,6 +3216,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_hint
+string platform_name
 string range_end
 string range_start
 string registeration

@@ -1,9 +1,11 @@
 package login
 
+
 import ImageResources
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
@@ -29,6 +31,7 @@ import widgets.CommonTextField
 @Composable
 fun LoginScreen() {
     val rootController = LocalRootController.current
+
 
     StoredViewModel(factory = { LoginViewModel() }) { viewModel ->
         val state = viewModel.viewStates().observeAsState()
@@ -93,10 +96,11 @@ fun LoginScreen() {
 
             Spacer(modifier = Modifier.height(20.dp))
             Row (modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween){
-                TextButton(onClick = {}){
+                TextButton(onClick = {viewModel.obtainEvent(LoginEvent.ForgotClick)})
+                {
                     Text(StringResources.stForgotPassword())
                 }
-                TextButton(onClick = {}){
+                TextButton(onClick = {viewModel.obtainEvent(LoginEvent.RegistrationClick)}){
                     Text(StringResources.stRegisteration())
                 }
             }
@@ -106,7 +110,6 @@ fun LoginScreen() {
             ActionButton(title = StringResources.stLogin(), isSending = state.value.isSending) {
                 viewModel.obtainEvent(LoginEvent.LoginClick)
             }
-
         }
 
         when (action.value) {

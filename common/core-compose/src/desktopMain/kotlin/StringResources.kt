@@ -10,5 +10,7 @@ actual class StringResources {
         actual fun stForgotPassword() = Strings.forgot_password
 
         actual fun stRegisteration() = Strings.registeration
+        actual fun stBack() = Strings.back
+        actual fun getPlatformName() = Strings.platform_name
     }
 }

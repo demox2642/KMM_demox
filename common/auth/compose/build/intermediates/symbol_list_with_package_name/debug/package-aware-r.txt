@@ -902,6 +902,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string back
 string close_drawer
 string close_sheet
 string default_error_message
@@ -918,6 +919,7 @@ string off
 string on
 string password_hint
 string phone_hint
+string platform_name
 string range_end
 string range_start
 string registeration

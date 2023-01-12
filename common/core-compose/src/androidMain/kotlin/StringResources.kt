@@ -21,5 +21,11 @@ actual class StringResources {
 
         @Composable
         actual fun stRegisteration() = stringResource(id = R.string.registeration)
+
+        @Composable
+        actual fun stBack() = stringResource(id = R.string.back)
+
+        @Composable
+        actual fun getPlatformName() = stringResource(id = R.string.platform_name)
     }
 }

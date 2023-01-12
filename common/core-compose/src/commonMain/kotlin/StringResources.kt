@@ -2,6 +2,7 @@
 
 expect class StringResources {
     companion object {
+        fun getPlatformName(): String
         fun stPasswordHint(): String
         fun stPhoneHint(): String
         fun stLogin(): String
@@ -9,5 +10,6 @@ expect class StringResources {
         fun stForgotPassword(): String
 
         fun stRegisteration(): String
+        fun stBack(): String
     }
 }

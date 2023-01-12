@@ -1179,6 +1179,7 @@ int color foreground_material_dark 0x7f05005a
 int color foreground_material_light 0x7f05005b
 int color highlighted_text_material_dark 0x7f05005c
 int color highlighted_text_material_light 0x7f05005d
+int color light_gray 0x7f050255
 int color m3_appbar_overlay_color 0x7f05005e
 int color m3_assist_chip_icon_tint_color 0x7f05005f
 int color m3_assist_chip_stroke_color 0x7f050060
@@ -3106,6 +3107,7 @@ int string abc_shareactionprovider_share_with_application 0x7f0d0019
 int string abc_toolbar_collapse_description 0x7f0d001a
 int string androidx_startup 0x7f0d001b
 int string appbar_scrolling_view_behavior 0x7f0d001c
+int string back 0x7f0d0090
 int string bottom_sheet_behavior 0x7f0d001d
 int string bottomsheet_action_expand_halfway 0x7f0d001e
 int string character_counter_content_description 0x7f0d001f
@@ -3213,6 +3215,7 @@ int string path_password_eye_mask_strike_through 0x7f0d0080
 int string path_password_eye_mask_visible 0x7f0d0081
 int string path_password_strike_through 0x7f0d0082
 int string phone_hint 0x7f0d008b
+int string platform_name 0x7f0d0091
 int string range_end 0x7f0d0083
 int string range_start 0x7f0d0084
 int string registeration 0x7f0d008f

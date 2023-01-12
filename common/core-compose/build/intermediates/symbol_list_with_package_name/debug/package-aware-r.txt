@@ -69,6 +69,7 @@ id consume_window_insets_tag
 id hide_in_inspector_tag
 id inspection_slot_table_set
 id wrapped_composition_tag
+string back
 string close_drawer
 string close_sheet
 string default_error_message
@@ -85,6 +86,7 @@ string off
 string on
 string password_hint
 string phone_hint
+string platform_name
 string range_end
 string range_start
 string registeration
