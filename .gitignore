@@ -90,3 +90,4 @@ local.properties
 /common/auth/compose/build/snapshot/
 /common/auth/compose/build/tmp/
 /buildSrc/build/
+/android/build/

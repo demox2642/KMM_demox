@@ -10,5 +10,8 @@ actual class ImageResources() {
 
         @Composable
         actual fun icNoVisible() = painterResource(R.drawable.ic_novisible)
+
+        @Composable
+        actual fun icArrowLeft() = painterResource(R.drawable.ic_arrow_left)
     }
 }

@@ -9,5 +9,8 @@ actual class ImageResources() {
 
         @Composable
         actual fun icNoVisible() = painterResource("drawable/ic_novisible.xml")
+
+        @Composable
+        actual fun icArrowLeft() = painterResource("drawable/ic_arrow_left.xml")
     }
 }

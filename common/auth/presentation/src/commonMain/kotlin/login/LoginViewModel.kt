@@ -21,7 +21,7 @@ class LoginViewModel : BaseSharedViewModel<LoginViewState, LoginAction, LoginEve
     override fun obtainEvent(viewEvent: LoginEvent) {
         when (viewEvent) {
             is LoginEvent.LoginClick -> sendLogin()
-            is LoginEvent.PhoneChanged -> obtainEmailChanged(viewEvent.value)
+            is LoginEvent.PhoneChanged -> obtainPhoneChanged(viewEvent.value)
             is LoginEvent.PasswordChanged -> obtainPasswordChanged(viewEvent.value)
             is LoginEvent.ForgotClick -> openForgot()
             is LoginEvent.RegistrationClick -> openRegistration()
@@ -66,7 +66,7 @@ class LoginViewModel : BaseSharedViewModel<LoginViewState, LoginAction, LoginEve
         viewAction = LoginAction.OpenRegistrationScreen
     }
 
-    private fun obtainEmailChanged(value: String) {
+    private fun obtainPhoneChanged(value: String) {
         viewState = viewState.copy(
             phone = value
         )
