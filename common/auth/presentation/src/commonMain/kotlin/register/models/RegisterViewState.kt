@@ -10,6 +10,7 @@ data class RegisterViewState(
     val isSending: Boolean = false,
     val showError: Boolean = false,
     val errorTitle: String = "",
-    val errorMessage: String = ""
+    val errorMessage: String = "",
+    val code: Long? = null
 
 )

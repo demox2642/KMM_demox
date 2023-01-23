@@ -8,4 +8,6 @@
     <string name="registeration">Register</string>
     <string name="back">Back</string>
     <string name="platform_name">Android</string>
+    <string name="pick_password">Pick a password</string>
+    <string name="repeat_password">Repeat password</string>
 </resources>

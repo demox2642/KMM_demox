@@ -27,5 +27,11 @@ actual class StringResources {
 
         @Composable
         actual fun getPlatformName() = stringResource(id = R.string.platform_name)
+
+        @Composable
+        actual fun stPickPassword() = stringResource(id = R.string.pick_password)
+
+        @Composable
+        actual fun stRepeatPassword() = stringResource(id = R.string.repeat_password)
     }
 }

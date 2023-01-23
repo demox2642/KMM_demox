@@ -9,6 +9,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(Dependencies.Kotlin.Serialization.serialization)
+                implementation(Dependencies.Kotlin.Coroutines.core)
             }
         }
     }

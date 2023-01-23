@@ -1,4 +1,4 @@
-package ru.demox_bank // ktlint-disable filename
+package ru.demox_bank // ktlint-disable filename // ktlint-disable package-name
 
 import io.ktor.server.cio.* // ktlint-disable no-wildcard-imports
 import io.ktor.server.engine.* // ktlint-disable no-wildcard-imports
@@ -15,7 +15,7 @@ fun main() {
         password = "postgres"
     )
 
-    embeddedServer(CIO, port = 8081, host = "0.0.0.0") {
+    embeddedServer(CIO, port = 8081, host = "localhost") {
         configureSerialization()
         configureRouting()
         configureRegisterRouting()

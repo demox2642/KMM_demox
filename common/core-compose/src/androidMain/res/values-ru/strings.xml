@@ -8,4 +8,6 @@
     <string name="registeration">Зарегистрироваться</string>
     <string name="back">Назад</string>
     <string name="platform_name">Android</string>
+    <string name="pick_password">Придумайте пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
 </resources>

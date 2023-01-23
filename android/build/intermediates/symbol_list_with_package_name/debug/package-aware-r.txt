@@ -3216,10 +3216,12 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_hint
+string pick_password
 string platform_name
 string range_end
 string range_start
 string registeration
+string repeat_password
 string search_menu_title
 string selected
 string status_bar_notification_info_overflow
@@ -4420,6 +4422,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml network_security_config
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

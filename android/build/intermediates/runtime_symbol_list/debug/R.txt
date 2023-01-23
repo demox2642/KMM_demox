@@ -3215,10 +3215,12 @@ int string path_password_eye_mask_strike_through 0x7f0d0080
 int string path_password_eye_mask_visible 0x7f0d0081
 int string path_password_strike_through 0x7f0d0082
 int string phone_hint 0x7f0d008b
+int string pick_password 0x7f0d0092
 int string platform_name 0x7f0d0091
 int string range_end 0x7f0d0083
 int string range_start 0x7f0d0084
 int string registeration 0x7f0d008f
+int string repeat_password 0x7f0d0093
 int string search_menu_title 0x7f0d0085
 int string selected 0x7f0d0086
 int string status_bar_notification_info_overflow 0x7f0d0087
@@ -5964,6 +5966,7 @@ int[] styleable ViewStubCompat { 0x010100d0, 0x010100f2, 0x010100f3 }
 int styleable ViewStubCompat_android_id 0
 int styleable ViewStubCompat_android_layout 1
 int styleable ViewStubCompat_android_inflatedId 2
+int xml network_security_config 0x7f100005
 int xml standalone_badge 0x7f100000
 int xml standalone_badge_gravity_bottom_end 0x7f100001
 int xml standalone_badge_gravity_bottom_start 0x7f100002

@@ -1,7 +1,9 @@
 package navigation // ktlint-disable filename
 
+import confearmcode.ConfirmCodeScreen
 import forgot.ForgotScreen
 import login.LoginScreen
+import models.RegisterCodeResponse
 import register.RegisterScreen
 import ru.alexgladkov.odyssey.compose.extensions.flow
 import ru.alexgladkov.odyssey.compose.extensions.screen
@@ -19,6 +21,10 @@ fun RootComposeBuilder.authFlow() {
 
         screen(name = NavigationTree.Auth.Forgot.name) {
             ForgotScreen()
+        }
+
+        screen(name = NavigationTree.Auth.Confirm.name) {
+            ConfirmCodeScreen(codeResponse = it as RegisterCodeResponse)
         }
     }
 }

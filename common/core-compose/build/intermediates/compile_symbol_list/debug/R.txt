@@ -86,10 +86,12 @@ int string off 0x0
 int string on 0x0
 int string password_hint 0x0
 int string phone_hint 0x0
+int string pick_password 0x0
 int string platform_name 0x0
 int string range_end 0x0
 int string range_start 0x0
 int string registeration 0x0
+int string repeat_password 0x0
 int string selected 0x0
 int string tab 0x0
 int string template_percent 0x0

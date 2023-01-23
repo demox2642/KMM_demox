@@ -1,4 +1,4 @@
-#Thu Jan 12 16:43:29 YEKT 2023
+#Mon Jan 23 16:13:32 YEKT 2023
 base.0=C\:\\Users\\demox\\IdeaProjects\\KMM\\KMM_demox\\android\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\demox\\IdeaProjects\\KMM\\KMM_demox\\android\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\demox\\IdeaProjects\\KMM\\KMM_demox\\android\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\5\\classes.dex

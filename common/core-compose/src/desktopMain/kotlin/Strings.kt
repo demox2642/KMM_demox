@@ -7,6 +7,8 @@ object Strings {
     val registeration: String
     val back: String
     val platform_name: String
+    val pick_password: String
+    val repeat_password: String
 
     init {
         if (System.getProperty("user.language").equals("ru")) {
@@ -18,6 +20,8 @@ object Strings {
             registeration = "Зарегистрироваться"
             back = "Назад"
             platform_name = "Desktop"
+            pick_password = "Придумайте пароль"
+            repeat_password = "Повторите пароль"
         } else {
             password_hint = "Your Password"
             phone_hint = "Your Phone"
@@ -27,6 +31,8 @@ object Strings {
             registeration = "Register"
             back = "Back"
             platform_name = "Desktop"
+            pick_password = "Pick a password"
+            repeat_password = "Repeat password"
         }
     }
 }

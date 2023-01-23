@@ -922,10 +922,12 @@ string off
 string on
 string password_hint
 string phone_hint
+string pick_password
 string platform_name
 string range_end
 string range_start
 string registeration
+string repeat_password
 string search_menu_title
 string selected
 string status_bar_notification_info_overflow

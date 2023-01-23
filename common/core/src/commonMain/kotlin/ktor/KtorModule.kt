@@ -11,6 +11,7 @@ import kotlinx.serialization.json.Json
 import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.singleton
+import url
 
 internal val ktorModule = DI.Module("ktorModule") {
     bind<HttpClient>() with singleton {
@@ -36,9 +37,10 @@ internal val ktorModule = DI.Module("ktorModule") {
                 connectTimeoutMillis = 15000
                 requestTimeoutMillis = 30000
             }
-
+            val serverURL = url
             defaultRequest {
-                url("https://playzone-backend.herokuapp.com")
+                // url("https://playzone-backend.herokuapp.com")
+                url(serverURL)
                 header("Content-Type", "application/json; charset=UTF-8")
             }
         }

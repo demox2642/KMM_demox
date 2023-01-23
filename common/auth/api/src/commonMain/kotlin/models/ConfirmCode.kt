@@ -4,5 +4,5 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class ConfirmCode(
-    val code: Int
+    val code: Long
 )

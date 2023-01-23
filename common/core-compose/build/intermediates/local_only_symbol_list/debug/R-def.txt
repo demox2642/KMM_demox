@@ -37,5 +37,7 @@ string login
 string login_screen_title
 string password_hint
 string phone_hint
+string pick_password
 string platform_name
 string registeration
+string repeat_password

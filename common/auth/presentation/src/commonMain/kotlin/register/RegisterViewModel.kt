@@ -41,6 +41,7 @@ class RegisterViewModel : BaseSharedViewModel<RegisterViewState, RegisterAction,
 
     private fun changePasswordVisibility() {
         viewState = viewState.copy(passwordHidden = !viewState.passwordHidden)
+        //   viewState = viewState.copy(passwordHidden = !viewState.repeatPasswordHidden)
     }
 
     override fun obtainEvent(viewEvent: RegisterEvent) {
@@ -55,8 +56,16 @@ class RegisterViewModel : BaseSharedViewModel<RegisterViewState, RegisterAction,
     }
 
     private fun createUser() {
-        viewModelScope.launch {
-            authRepository.register(phone = viewState.phone.toLong(), password = viewState.password)
+        if (viewState.password == viewState.repeatPassword) {
+            viewModelScope.launch {
+                val response = authRepository.register(phone = viewState.phone.toLong(), password = viewState.password)
+                if (response.success) {
+                    viewState = viewState.copy(code = response.response.code)
+                    viewAction = RegisterAction.OpenConfirmCodeScreen
+                } else {
+                    showMessage("Create user ERROR", "zasdfg")
+                }
+            }
         }
     }
 }
