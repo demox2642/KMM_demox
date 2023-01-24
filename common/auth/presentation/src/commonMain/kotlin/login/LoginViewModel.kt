@@ -1,7 +1,7 @@
 package login
 
 import com.adeo.kviewmodel.BaseSharedViewModel
-import json.di.Inject
+import di.Inject
 import kotlinx.coroutines.launch
 import login.models.LoginAction
 import login.models.LoginEvent
@@ -45,12 +45,12 @@ class LoginViewModel : BaseSharedViewModel<LoginViewState, LoginAction, LoginEve
         viewModelScope.launch {
             val response = authRepository.register(viewState.phone.toLong(), viewState.password)
 
-            if (response.success) {
-                viewState = viewState.copy(phone = "", password = "", isSending = false)
-                viewAction = LoginAction.OpenMainFlow
-            } else {
-                viewState = viewState.copy(isSending = false)
-            }
+//            if (response.success!!) {
+//                viewState = viewState.copy(phone = "", password = "", isSending = false)
+//                viewAction = LoginAction.OpenMainFlow
+//            } else {
+//                viewState = viewState.copy(isSending = false)
+//            }
         }
     }
 

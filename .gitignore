@@ -18,6 +18,8 @@
 *.zip
 *.tar.gz
 *.rar
+*.probe
+*.bin
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -91,3 +93,17 @@ local.properties
 /common/auth/compose/build/tmp/
 /buildSrc/build/
 /android/build/
+/common/core/build/
+/common/core/build/.transforms/
+/common/core/build/classes/
+/common/core/build/generated/
+/common/core/build/intermediates/
+/common/core/build/kotlin/
+/common/core/build/kotlinSourceSetMetadata/
+/common/core/build/libs/
+/common/core/build/outputs/
+/common/core/build/snapshot/
+/common/core/build/tmp/
+/android/build/
+/buildSrc/build/
+/buildSrc/buildSrc/build/

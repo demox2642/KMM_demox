@@ -4,7 +4,7 @@
             "outputFile": "com.demox.bank.android-mergeDebugResources-54:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\10fa92e97e3c54064fc17682d044ccb3\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\bf7986b9de76f5d04cf33e8648745b12\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\df8aba2d307a51dcd68ca51299868cce\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\demox\\.gradle\\gradle-7.0.2-bin\\caches\\transforms-3\\6d1f8133b53554f02fed86ed9c7b0a37\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

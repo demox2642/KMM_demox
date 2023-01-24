@@ -1,8 +1,6 @@
 package navigation
 
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
@@ -16,7 +14,7 @@ fun TopAppNavBar() {
     val rootController = LocalRootController.current
 
     if (StringResources.getPlatformName() == "Desktop") {
-        Row(modifier = Modifier.fillMaxWidth().padding(5.dp)) {
+        Row(modifier = Modifier.fillMaxWidth().height(100.dp)) {
             IconButton(
                 onClick = { rootController.popBackStack() }
 

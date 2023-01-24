@@ -1,6 +1,7 @@
 package widgets
 
 import androidx.compose.foundation.border
+import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -9,6 +10,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -31,7 +33,7 @@ fun CodeTextField(
         },
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.NumberPassword),
         decorationBox = {
-            Row(horizontalArrangement = Arrangement.Center) {
+            Row(horizontalArrangement = Arrangement.Center, modifier = Modifier.focusable(false).onKeyEvent { false }) {
                 repeat(otpCount) { index ->
                     CharView(
                         index = index,
@@ -61,18 +63,20 @@ private fun CharView(
             .border(
                 1.dp,
                 when {
-                    isFocused -> AppTheme.colors.controlTextBlueActive
-                    else -> AppTheme.colors.colorTextSuccess
+                    isFocused -> AppTheme.colors.controlGraphBlue
+                    else -> AppTheme.colors.systemBackgroundTertiary
                 },
                 RoundedCornerShape(8.dp)
             )
-            .padding(2.dp),
+            .padding(2.dp)
+            .focusable(false)
+            .onKeyEvent { false },
         text = char,
         style = MaterialTheme.typography.h4,
         color = if (isFocused) {
-            AppTheme.colors.controlTextBlueActive
+            AppTheme.colors.systemTextPrimary
         } else {
-            AppTheme.colors.colorTextSuccess
+            AppTheme.colors.systemTextTertiary
         },
         textAlign = TextAlign.Center
     )

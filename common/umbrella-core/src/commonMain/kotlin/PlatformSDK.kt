@@ -1,5 +1,5 @@
+import di.Inject
 import di.authModule
-import json.di.Inject
 import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.direct

@@ -1,7 +1,7 @@
 package register
 
 import com.adeo.kviewmodel.BaseSharedViewModel
-import json.di.Inject
+import di.Inject
 import kotlinx.coroutines.launch
 import register.models.RegisterAction
 import register.models.RegisterEvent

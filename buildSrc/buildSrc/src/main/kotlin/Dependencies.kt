@@ -43,7 +43,7 @@ object Dependencies {
     }
 
     object Ktor {
-        private const val version = "2.1.0"
+        private const val version = "2.2.2"
         const val core = "io.ktor:ktor-client-core:$version"
         const val server_core = "io.ktor:ktor-server-core:$version"
         const val server_cio = "io.ktor:ktor-server-cio:$version"
@@ -59,6 +59,7 @@ object Dependencies {
         const val android = "io.ktor:ktor-client-android:$version"
         const val okhttp = "io.ktor:ktor-client-okhttp:$version"
         const val server_test = "io.ktor:ktor-server-tests:$version"
+        const val gson = "io.ktor:ktor-serialization-gson:$version"
     }
 
     object Logback{

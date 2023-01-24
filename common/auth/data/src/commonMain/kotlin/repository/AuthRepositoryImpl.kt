@@ -25,8 +25,8 @@ class AuthRepositoryImpl(
         val token = remoteDataSource.confirmCode(
             codeRequest = CodeRequest(code)
         )
-        if (token.success) {
-            cacheDataSource.saveToken(token.response.token)
+        if (token.success!!) {
+            cacheDataSource.saveToken(token.response!!.token)
         }
 
         return token
