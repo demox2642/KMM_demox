@@ -10,7 +10,6 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -33,7 +32,7 @@ fun CodeTextField(
         },
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.NumberPassword),
         decorationBox = {
-            Row(horizontalArrangement = Arrangement.Center, modifier = Modifier.focusable(false).onKeyEvent { false }) {
+            Row(horizontalArrangement = Arrangement.Center, modifier = Modifier.focusable()) {
                 repeat(otpCount) { index ->
                     CharView(
                         index = index,
@@ -68,9 +67,7 @@ private fun CharView(
                 },
                 RoundedCornerShape(8.dp)
             )
-            .padding(2.dp)
-            .focusable(false)
-            .onKeyEvent { false },
+            .padding(2.dp),
         text = char,
         style = MaterialTheme.typography.h4,
         color = if (isFocused) {
